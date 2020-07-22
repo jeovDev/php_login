@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  font-family: montserrat;
+}
+
+@font-face {
+  src: url(/fonts/Montserrat-Regular.ttf);
+  font-family: montserrat;
+}
+.form-container {
+  //   border: 1px solid black;
+  width: 400px;
+  .welcome-text {
+    // border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.5em;
+  }
+  .logo-wrapper {
+    // border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    img {
+      height: 80px;
+      width: 80px;
+    }
+  }
+  .form-wrapper {
+    // border: 1px solid black;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input[type="text"],
+    input[type="password"] {
+      margin-bottom: 20px;
+      height: 30px;
+      width: 300px;
+      border: none;
+      border-bottom: 1px solid black;
+      text-align: center;
+      outline: none;
+    }
+    input[type="submit"] {
+      margin-bottom: 20px;
+      height: 40px;
+      width: 300px;
+      border: none;
+      text-align: center;
+      outline: none;
+      background-color: black;
+      color: white;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    .reg {
+      //   border: 1px solid black;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+.res {
+  // border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: green;
+}

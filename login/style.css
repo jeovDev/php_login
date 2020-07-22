@@ -1,0 +1,112 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 200px;
+  font-family: montserrat;
+}
+
+@font-face {
+  src: url(/fonts/Montserrat-Regular.ttf);
+  font-family: montserrat;
+}
+
+.form-container {
+  width: 400px;
+}
+
+.form-container .welcome-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.5em;
+}
+
+.form-container .logo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.form-container .logo-wrapper img {
+  height: 80px;
+  width: 80px;
+}
+
+.form-container .form-wrapper {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-container .form-wrapper input[type="text"],
+.form-container .form-wrapper input[type="password"] {
+  margin-bottom: 20px;
+  height: 30px;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid black;
+  text-align: center;
+  outline: none;
+}
+
+.form-container .form-wrapper input[type="submit"] {
+  margin-bottom: 20px;
+  height: 40px;
+  width: 300px;
+  border: none;
+  text-align: center;
+  outline: none;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.form-container .form-wrapper .reg {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.res {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  color: green;
+}
+/*# sourceMappingURL=style.css.map */
